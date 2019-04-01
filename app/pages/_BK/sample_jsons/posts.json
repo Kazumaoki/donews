@@ -1,0 +1,1176 @@
+[
+	{
+		"id": 312,
+		"date": "2018-12-17T18:38:22",
+		"date_gmt": "2018-12-17T09:38:22",
+		"guid": {
+			"rendered": "http://yobic.co/?p=312"
+		},
+		"modified": "2019-01-16T13:40:07",
+		"modified_gmt": "2019-01-16T04:40:07",
+		"slug": "%e3%82%b3%e3%83%b3%e3%83%94%e3%83%a5%e3%83%bc%e3%82%bf%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af%e3%81%a8%e3%81%af%e4%bd%95%e3%81%8b%ef%bc%9f",
+		"status": "publish",
+		"type": "post",
+		"link": "https://yobic.co/topic/NWL1_002",
+		"title": {
+			"rendered": "コンピュータネットワークとは何か？"
+		},
+		"content": {
+			"rendered": "<p><center><iframe src=\"https://www.youtube.com/embed/_TJmV65kKP0\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe></center>みなさんこんにちは。yobico の ひろきppoi （ @HrkPPOI ）です&#x1f604;</p>\n<div class=\"voice cf l\"><figure class=\"icon\"><img src=\"http://yobic.co/wp-content/uploads/2018/12/yomiko_happy-1-e1544084319350.png\"><figcaption class=\"name\"></figcaption></figure><div class=\"voicecomment\">質問役のヨミコです</div></div>\n<p>この記事では，<em><strong>コンピュータネットワーク</strong></em>について説明します。</p>\n<div class=\"voice cf l\"><figure class=\"icon\"><img src=\"http://yobic.co/wp-content/uploads/2018/12/yomiko_happy-1-e1544084319350.png\"><figcaption class=\"name\"></figcaption></figure><div class=\"voicecomment\">コンピュータネットワークのない社会を考えるほうが難しいですよね</div></div>\n<p>早速見ていきましょう！</p>\n<p><!--more--></p>\n<h2>１分で分かる</h2>\n<p>この記事の概要です。ザッと流れを掴んだり復習に使ったりしてください&#x1f44d;</p>\n<h3>言葉の意味 &#8211;</h3>\n<table class=\"minwakaru\">\n<tbody>\n<tr>\n<td class=\"big-emoji\">&#x1f9d0;</td>\n<td class=\"script\">複数のコンピューターを通信網で結び、互いに情報のやり取りができるようにしたもの。 &#8211; デジタル大辞泉</td>\n</tr>\n<tr>\n<td class=\"big-emoji\">&#x1f61c;</td>\n<td class=\"script\">パソコンを繋げたものだよ。「繋がったパソコン」のことでもあるよ。</td>\n</tr>\n</tbody>\n</table>\n<h3>話の流れ</h3>\n<table class=\"minwakaru\">\n<tbody>\n<tr>\n<td class=\"big-emoji\">&#x1f603;</td>\n<td class=\"script\">コンピュータで何かを作ったぞ</td>\n</tr>\n<tr>\n<td class=\"big-emoji\">&#x1f622;</td>\n<td class=\"script\">自分ひとりで持っていても大した役に立たない</td>\n</tr>\n<tr>\n<td class=\"big-emoji\">&#x1f914;</td>\n<td class=\"script\">コンピュータで作ったものを誰かと共有したい</td>\n</tr>\n<tr>\n<td class=\"big-emoji\">&#x1f60e;</td>\n<td class=\"script\">コンピュータ同士を接続することで，作った情報を共有・伝達できる</td>\n</tr>\n</tbody>\n</table>\n<h2>前提知識</h2>\n<p>以下の理解が必要です。もし分からなければ，該当ページを参照してください&#x1f4da;</p>\n<ol>\n<li><a href=\"http://yobic.co/topic/NWL1_001\">ネットワークとは何か？</a></li>\n</ol>\n<h2>背景</h2>\n<div class=\"column-wrap cf \">\n<div class=\"col2\"><img class=\"aligncenter size-large\" src=\"https://lh3.googleusercontent.com/wWntK50ygtYQoRbaM1lMQ5gkq2HDBMJGli-3c49fjtIVCrt8IfRaiUp5CFEJUjBG5TC5-SzD6fB2FQiq3_b8at8GBpkpE49bG1Qjuk8Bz956ThywYcsvzU9JNZ_e3WkLHYCz6qoZlPzpJmT9eGQ9iRH5hr393ELSVBR7Kee32ku222HjwMHyga7epOrgQYkYa36SMrQtTsLyK3Ehi2kLklLrtwntZa76n2EPK9tk0uiPPe0JOxERa8gnNzUng-Qz6_cN_hlRq1_iPxrjj4-Xw2n1X5BEXX21GZ3Odr1MEgYwLekYcQ0eNb94rzN4LF17rvenCUkptU4QQXqXm3pZHJLJDK8_0Ppd2VBMPcqclzl8aBVOtwyJQrh_JeK_mkHpxAVcPxfUztXIPuNFI_YOi2tbXNoyQ64JhwwfXI6x_Mpvz7SSE62EiIpLSqorAGI4mc1YZPaX6uWufdMKQEi_mSHimz6LyvJU00H7WN3BrtP2ROfBjaDP2sHc2Q8XfuNwdPwhv1EoRym59uKEN9BUIQwplS_mIFUwEd7VOkaTt7rioT_n1JVLybukYm_VLl9lLVDI8PUZSCoJAPI91i-kjVmP7Ye4mN8NJMEFi-V18_dlSXbskcr1dhyXkwYmDJIniuK9QynCG1shXuD14Nd0s44I=w1920-h1080-no\" width=\"1920\" height=\"1080\" /></div>\n<div class=\"col2\"><img class=\"aligncenter size-large\" src=\"https://lh3.googleusercontent.com/jQKC08cY5Z4yoCKtZOrD0FP8q_HkKuLXi1IIJIQuwL00weYicqvCNBm5pmL3qSARfJUQXSgNb1qT2eQx7mjP7Sv2b3r9Ymckp3DVizI321hjoBNQffZRb7ky5IS1YIjJ95dGn_KpfHIQlx_BPJ0bUURxNFElBPy160BRRpAqTki0R6_8IWxnSNQY6dLagQltnvRTfYsbcZIZNyfAYTC5RAaJEoGfLH5H3f9q6lT_2Oz5bAa9sc2z4YgAKr9TeQFq5vNTQo1DrEtCgmdoXP-Z9Cn-63O37coC5NjE_jP4P-EAslMLoJQy4yitGlnpjGtpROYmzHgcsvfP07i6P_DbNgEvN7ejfhgcMKt6RMIbIdR_C9oeTKwZh4N5JtjIx1CU-CmLoMzol7iRDmOeHNLV-hKiEB4Jz4rlO3O3kI07xdFzd3x5GX_1giBwJlIDbyFS0cOlD1ICK6mZHXnL7Tm-2ntmXT1EfweTA0oRMFpS8jQ4-3ppckU2VkqVjul_ghiDC15ICxh5ADzr-bNiLKScTUcUfGDKFsHhUoOWGWdfBts1-guBPo7N1tAZ5wkUT55qY_DshfiA58AdThy-NwOkVXjx_rX9OBD9KYLYBQjqaBmXY6j95ttj8ueql6Zo4BkIm5tSJDUkESrZhAQh-cl8Mh6j=w1920-h1080-no\" width=\"1920\" height=\"1080\" /></div>\n</div>\n<p>ネットワークとは「つながり」であり，何かを運ぶためのものです。</p>\n<p>そして，コンピュータネットワークとは，コンピュータ同士をつなげて，情報を運ぶためのものです。</p>\n<p>ここまでが，「ネットワーク」の項目で説明したお話でした。</p>\n<p>この動画ではコンピュータネットワークについて，もう少し具体的に考えてみます。</p>\n<p>私たちに最も身近なコンピュータはスマートフォンですね。では，スマートフォンで作成した情報は，どうしているでしょうか？</p>\n<div class=\"voice cf l\"><figure class=\"icon\"><img src=\"http://yobic.co/wp-content/uploads/2018/12/yomiko_angry.png\"><figcaption class=\"name\"></figcaption></figure><div class=\"voicecomment\">\n<p>どう，と言われても。私は何も作りませんよ。</div></div>\n<p>いいえ，作っているはずです。</p>\n<p>カメラアプリを使って，写真データを作成したことがありませんか？</p>\n<div class=\"voice cf l\"><figure class=\"icon\"><img src=\"http://yobic.co/wp-content/uploads/2018/12/yomiko_happy-1-e1544084319350.png\"><figcaption class=\"name\"></figcaption></figure><div class=\"voicecomment\">\n<p>なるほど…言われてみればそうですね。</p>\n<p>写真データだったら，インスタにアップしています。</div></div>\n<p>そうですね。</p>\n<p>インスタだけでなく，LINE や，facebook にアップロードする人もいるでしょう。</p>\n<div class=\"column-wrap cf \">\n<div class=\"col2\"><img class=\"aligncenter size-large\" src=\"https://lh3.googleusercontent.com/cqwEhKuG3U8hXpY07ktFs9SLKd08G-LXU_qcI_Z1UrFtJqowlWHqNf6Ty95MATv71hs9csY1NN5yas99REkKBaQlPBSVHXcKSDZR0d0GADze2KpjcBPwK2HW-pIqSUvzWWTfn4U8GyKOMgnCRZ2Se-Xty2q4zm-q_DZPMoicUBCNsQZE8-PUhs1Qfu4YpPFALYHeIt7SvEbFcpjp_AudWkVOGMYWwORK0apWG9-rQ660cv65K03FMEdmaeMHhwUoTe6f_DKbagvjNBuovEsbB_SV_XbBp7XWt37AIrXYOVlvU6KxGAFwIm5dQOF1bnTSHsHvKgpuq4An1SFQv4EXHlKjx5VyaPye4Ny7Vc7esAMrtm5ZvjVbTm-trwr1UfsmJjW5dQnd219383_CgfWaLaNiY_Ci_1meOZvGbbZY6O6ckfipWX_EUm-GMrrIHvfxO9dD4lSVjmRb8wNJaXBC9fIooNSpHs5xCD9FldDuQUDZozmu2G5SGlPnQ4TV7mWM-rm6Rh99VzsXeov9Fx07GcPP_hecIjYKdgWLyWXhdeVW5jgdNCbgqhyTjjY94XqU-KTW80xnUDKuzq94QTDLJsc0Kivs8TipZvVRijjAO7raqgN3rJ3CHY2ewAJYV2IABF6odGNYYrAtC5pDl4TLMedp=w1920-h1080-no\" width=\"1920\" height=\"1080\" /></div>\n<div class=\"col2\"><img class=\"aligncenter size-large\" src=\"https://lh3.googleusercontent.com/4AH4o0G_Ho95Hz5hYJX7BpYie_udliQ4AX6anGZjjvx7yZmPAPOzqj2og7yMjYVTr4jNhxRqoTYrzsBQN-MA8YDq34yMZM5kp1-rWenIMdCzJUNin4gYPvJyZppyw70cRDne5rynLC3Mnelll2VDfAGIwwSAyaP8Z9lHPAjLjKzpX27TB3qxTYTdCz8223w52_uAGlKwLpGdtozRkFAs5l5zqzz_MePaG4IRTlAXjL_4FLVwKAX0jfWwCz9OOMEoI6SGrTPX_lFgzDkuRLwjffm6S2kNKSy3twTKF161L-EReVcuor9QTh8q0DZ1X7wjx2ZpmGR7GrJK9O-hHuubZsI71Bd2mi0RjWJYrzePkiKrzhRUHVikx93STctTiL_LvlS8zdN2NPObetIjh3CSpmFG9MLUVVpJOQT0DqDyyaDu1PRIE2_ryL_eKCrx751UfcjX6nFsEErXOh5YwWlS-Y0A3lQRLGzwlpLao3AqROag92nwB-IT8gka0VfB_Bp9nZkjg5BfJidEEtEAPnyX6an05dk_tWwFO4ORs2Ig7RyCjZkXSIXy4mnWFxzd1OkEeJeQL-hMLV249kJDLwgow3xuNRtEiiXoE_Wt6Zbtm3QVlwT-YOWcbCHUBOnBiS75DdE7SquoS6RWWlSGpuT_dyUD=w1920-h1080-no\" width=\"1920\" height=\"1080\" /></div>\n</div>\n<p>写真データに限らず，世のなかにはたくさんのデータがあります。</p>\n<ul>\n<li>明日の天気</li>\n<li>忘年会の開催日</li>\n<li>ミーティングの議事録</li>\n<li>担当部署の売り上げ</li>\n</ul>\n<p>こうしたデータは，誰かに運び届けて，役立ててもらったり，コミュニケーションをしたりするために作られています。</p>\n<p>コンピュータ同士をつなげて，情報を届けたくなってきましたね。</p>\n<h2>コンピュータネットワークとは</h2>\n<div class=\"supplement boader\">複数のコンピューターを通信網で結び、互いに情報のやり取りができるようにしたもの。</p>\n<p>&#8211; デジタル大辞泉</div>\n<div class=\"voice cf l\"><figure class=\"icon\"><img src=\"http://yobic.co/wp-content/uploads/2018/12/yomiko_happy-1-e1544084319350.png\"><figcaption class=\"name\"></figcaption></figure><div class=\"voicecomment\">これが言葉の定義なんですね</div></div>\n<p>そうです。</p>\n<p>要するに，情報を運ぶための，コンピュータ同士のつながりのことだと理解してください。</p>\n<p>ここでもう 1 つ，具体例を見ておきましょう。</p>\n<div class=\"column-wrap cf \">\n<div class=\"col2\"><img class=\"alignnone size-large\" src=\"https://lh3.googleusercontent.com/UnyhSe77WGPZMqnBKL5Bs5rZXFPuYhLdIfY6tiWqFGBY8H5XctHKlyjcPfAAe9cUOZb7nUFcm0OMzdDMrKz-ig69Vxnmj792aOJFwY0jpu-tuuU9mdQhKur9bydvy_SI1ntzGbgQ1uZZxgMWm-JcaF93zrUjedQNJo0mBuRNH59oJ6oQJiLfeQIqDew86qNGD3S0VqJNufNUw1yJiAfZRR78cmVrCjfszjDJCd6Gjq-y-0OnU8_xjhJ3xoUy9xsdItGXi1aAnm_X0dz-UpngppcRUs_uHm5HvhJ3E4DZsMs6OVmMXkomVT3gkodHO5Beg34hOnvbQCjraiUxLNYCEijgux1NXB1E67Gpt6nlNqfZLKVc2VbmoCIzf27sVU8mxbin8QglK2wNE6vJSN3ibAAtvhG27MBJ7KgNlAwKKV_SOjc9QtrZd_Lxl9pDlU74Fsqaree4-peHkz5Z48eUEfiG_CiSIzQgKRaH_kmF6W9CQXIKgtatIxY_tsKqdmZHqCyyfdcqLudqiQxzzckoLRdh7SHZ8mRS6NpkKevEukVn-KjnWgLRHA_qHWuOlCastXkmLRD83cGO7MnDIbFJWmQ17BmsxlYKDtm9OirLAqlDA7CnyUWmij22v93fUGIsFy1cn7KnX6UMFhXMz4KMXjE0=w1920-h1080-no\" width=\"1920\" height=\"1080\" /></div>\n<div class=\"col2\"><img class=\"alignnone size-large\" src=\"https://lh3.googleusercontent.com/WL-l47hplBtFGlIr1l_yWUGx_Ps5620Pgc41FhwAHprzs7A3wd27-8q3AbfTwISWiOldDn5TxiLpjCSlwZY4kro0luCebi-OGCbErRjyXhMAjaal71w7IljmfHj2MKlOuWEKez7h81F4slmCOXc0uw27r7j3LcqrOF0Chzzp_OTg0bKYbxMw9O1TFn5apJsO8q1kiak9T3IV4jvbxEJQ3ucQYmIITvwlYDyZ3Vnd1skLMD-H_4pQRkYJHn4UeACwMX4WIrKi0OpD693jfm03SMmmlTgYkq2S1vAdW8jN6EYrMzZRAlOl-A4dwb1QKdb8tcGJKPY32g5BLTYghNli_MhCAtswPNXK6TvOtXCY4zhEp4qnKFKRrdzPjG1aMNY8oP7ET1braS0yWvkqi4wTh5jt-5Q5zpAW-PZY6TcHGFxgoRZHEWu9NkZJfzyy97MvqISyUW1zLbn-PTfft9-iR2RYz9Tq_T2VXe1eWxzx912TkC-lKZNLeo4TXpLuyRU906OTg86CwvYOvWKUG-BF-VmQjH0O2_93xuktKRRl4B5Dn_tFWYZMliNjDN6PosxY7nSwXSR16nbKw4JuQhW25807ik3ZzNFSyeQm2jgW99MfOyULMK8_Pv0-DLorORRKDASz-v6_zry91o0jU1VwuIbh=w1920-h1080-no\" width=\"1920\" height=\"1080\" /></div>\n</div>\n<p>1978年に，世界初の日本語ワープロが発売されました。</p>\n<div class=\"voice cf r\"><figure class=\"icon\"><img src=\"http://yobic.co/wp-content/uploads/2018/10/arute.jpg\"><figcaption class=\"name\"></figcaption></figure><div class=\"voicecomment\">なんと 630万円もしたんですねえ。</div></div>\n<p>ワープロというのは Word の機能だけをもった機械のことで，このワープロにはプリンタがセットでついています。</p>\n<p>また，記録したデータはフロッピーディスクと呼ばれる機械に保存しておきます。フロッピーディスクは，CD : コンパクトディスク みたいなものですね。</p>\n<p>昔の機械ですから，このワープロにはネットワークの機能がありません。</p>\n<p>データを印刷する場合は，フロッピーディスクをワープロにはめ込み，データを読み込ませて印刷します。</p>\n<div class=\"voice cf r\"><figure class=\"icon\"><img src=\"http://yobic.co/wp-content/uploads/2018/10/arute.jpg\"><figcaption class=\"name\"></figcaption></figure><div class=\"voicecomment\">いやあ面倒ですよね</div></div>\n<img class=\"alignnone size-large\" src=\"https://lh3.googleusercontent.com/9VI6Kte9HsWuam-xSQquclU-ekaa33lDXpEzwOI-N_-PK_jHBhD6LO1AVs75msCNXbGWs5o12__OdrrHXYQnG0BlWkiqfMgw8OSFuVNrQM-6s_uOomdilwMAWXPY-g_l_EPiu2yaKxXToiKbdnNCA7OHsJpYZ6ObaqRH9lqk9mIi3qAfqPBIaga7IMKY_okztRwFqJMdOzOYfvzmwgcm11TooIq217xOYcKwmSEarhowSYahktpNq7GHZ5iP-AYPWnEmMC1xH2MAT1Z7fWAScVUEuRtvdcV1G8V4hYq-gY9nJl-laUeISw0hYikslfJEkvKfR355Wt8dGuHLLtiWwDW8_5rGPhJI6RrBEwib1dJ3Gpas6yP9S9eYpsROUwAFrDr17hcVsb6vkOaY3MuJeKTqd7PF0DTZroi3rg50CE2nXWvOppDkKSlwK7FG6m89kBIfzoc0cxsVjiplGx9Jm_fzGGwJsbX3oIzTP86XKZZFTHaxCBj7_vPbaDJvaaNGfLITkzfZ6MBdLqz1UJAMuPV3vQqWW4J-86KHJWv8TaXeZxLYYvLBgJBDS8HRj0sIBKxshGfa5o22ZWyoW-NT2wbhaWupE8wuUtS-lFTpq41F1LBWQw1jrCn1yFc4G2aO-SEPq_riWwrFUcaHszeY8gAB=w1920-h1080-no\" width=\"1920\" height=\"1080\" />\n<p>これに対して現代では，文書作成をするコンピュータとプリンタは別々の機械です。</p>\n<p>そして，家庭や企業内のコンピュータネットワーク越しにデータを送信して，コンピュータで作成したデータをプリンタで印刷することができるようになりました。</p>\n<p>また最近では，コンビニプリントというサービスも登場しています。</p>\n<div class=\"column-wrap cf \">\n<div class=\"col2\"><img class=\"alignnone size-large\" src=\"https://lh3.googleusercontent.com/2S7s3e81fWEzg2d3n45J9WpJqaALn-kgvxBzRzoeuQpWcNDQDdkgzL7U1pSlsND3u4i4m4_E2jHT18LCrXvldMQ4_B5o8z1qAF6lxOnGRCtutn0_oMXNvHqRI2jSKYo05HYT5YMGYnmIfhctimQo8WGbnxDZvmb_W1jCswuLSScklOVvlZa8KH1YtjIXkfQo-dwAD05v1OJW-n3osT84Pv_5rtREivuqwTUwO5ylVQ81Jr0KZQ9iuIf_hAT8WLEHgULQwbvZBMzj1bHLc--aPQC95_66qSROYR3Qp1ZgPdeaWYFInki49SdN0gGiKbbQMFChqkCVYQHuM9BcXWFlxr5MZxdYK4ffD3z9vc3NFu7jhSvlxfAMgHzPrxm4-afbF90ulsR0L_QaGn1xKK4gUyp8xEymc7p9kr6Zqv1JeJIevKCcerrTTWuDkyseot7cxglm0sTkqNygXI0b8nehMWUj0ZcoR0HizJbeJ52x6QOs5rViuOvIbUgKQmowjMR9pFE0eq5MGlJD2n28LsDDdLFFsdWg7Pd09aBqqKBmW4y9OZcRiNYgXiUOylgakY80ZyUWnLlG1Ip9fSLFOAVvJfLEtD55H0o6A9AZJjuWDpMC6acVM7bB8uY0BY25OshZHGsa2WAP8vaZxYNBWfwRos9y=w1920-h1080-no\" width=\"1920\" height=\"1080\" /></div>\n<div class=\"col2\"><img class=\"alignnone size-large\" src=\"https://lh3.googleusercontent.com/glQU0oF9sarPyN6RgS-Teae8ikruBu-WM_oa3mKVOOGg5ZYbHez3Vr5SJDEsaezZ4VPses-vZs8gwAV2aqh2fQMGqvxIrT4z9R7rWA2Comm--oIKiw8qJxNcExRq82C64I0c0AKEoMu6OGTS6LykCN3rWhxS7vzaKf_qFHC3fIFK3QAdoKSQQuxktay2DuRyZruNtPOJMBU61thqVDpPbsD6oQOBRMsoO5UqXXPLmleY2JVDWc6eh5WVPT-Q8ahmBtwdhO4ug29iDL4f2-A4tq8seho1LwSqYFpW2n702Lgnp76Q_L77XmsyJ2RSKj3hmVXf_z7bnNJQQr11AJF049xyOqst35K784YQYW-0d_wQ9E3bnotSnNqmm1WWsDKFG0Vcymqwr1q0q1a7I2WaJeR3HS2T3le6Y_eaVocjygOK5wC97dqwiwN4eEqxE6llruVPPVMlH8_wv5NIMdDBc1QoIAvSglIuG8RQxHSXM3qGuWGkXD-GLrY6yIMKH9ijG_BuCVmzUYUqItQf0dsk-rn_epB0NyTDXvEYv4rFus2w6vg2gDHzqYkQU3oYZ5WSjfIqYo3N-LPNWsVEfsiTFTxU2XONEnMiatjQ8zb0JFVXNY2-GFiO7u7QPZwb0FmSdURQ_caPjtW2UoxMKF09EqxH=w1920-h1080-no\" width=\"1920\" height=\"1080\" /></div>\n</div>\n<p>これはインターネットを利用した仕組みで，パソコンやスマホで作成したデータをあらかじめコンビニプリント用のアプリやサイトにアップロードしておきます。<br />\nそしてコンビニのプリンタでデータを選択して印刷することができます。</p>\n<p>ここでは印刷を例にとりましたが，LINE や Instagram が身近な私たちにとって，ネットワークがいかに便利なものかは説明不要かもしれませんね。</p>\n<h2>おわりに</h2>\n<p>コンピュータネットワークがなんなのか，理解できたでしょうか？</p>\n<div class=\"voice cf l\"><figure class=\"icon\"><img src=\"http://yobic.co/wp-content/uploads/2018/12/yomiko_happy-1-e1544084319350.png\"><figcaption class=\"name\"></figcaption></figure><div class=\"voicecomment\">スマートフォンにはケーブルがありませんが，これでもネットワークに繋がっているのですか？</div></div>\n<p>はい。ケーブルがなくても繋がっています。</p>\n<p>コンピュータのつなげかたには，まず，ケーブルをつないで情報を運ぶ方法があります。これを有線接続と言います。</p>\n<p>これに対してスマートフォンのように，ケーブルをつながずに電波で情報を運ぶこともできます。これを無線接続と言います。</p>\n<p>詳しい話はまた別な動画で解説しますので，お楽しみに！</p>\n",
+			"protected": false
+		},
+		"excerpt": {
+			"rendered": "<p>みなさんこんにちは。yobico の ひろきppoi （ @HrkPPOI ）です&#x1f604; この記事&#8230;</p>\n",
+			"protected": false
+		},
+		"author": 1,
+		"featured_media": 304,
+		"comment_status": "open",
+		"ping_status": "open",
+		"sticky": false,
+		"template": "",
+		"format": "standard",
+		"meta": [],
+		"categories": [
+			8
+		],
+		"tags": [
+			3
+		],
+		"_links": {
+			"self": [
+				{
+					"href": "https://yobic.co/wp-json/wp/v2/posts/312"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://yobic.co/wp-json/wp/v2/posts"
+				}
+			],
+			"about": [
+				{
+					"href": "https://yobic.co/wp-json/wp/v2/types/post"
+				}
+			],
+			"author": [
+				{
+					"embeddable": true,
+					"href": "https://yobic.co/wp-json/wp/v2/users/1"
+				}
+			],
+			"replies": [
+				{
+					"embeddable": true,
+					"href": "https://yobic.co/wp-json/wp/v2/comments?post=312"
+				}
+			],
+			"version-history": [
+				{
+					"count": 10,
+					"href": "https://yobic.co/wp-json/wp/v2/posts/312/revisions"
+				}
+			],
+			"predecessor-version": [
+				{
+					"id": 322,
+					"href": "https://yobic.co/wp-json/wp/v2/posts/312/revisions/322"
+				}
+			],
+			"wp:featuredmedia": [
+				{
+					"embeddable": true,
+					"href": "https://yobic.co/wp-json/wp/v2/media/304"
+				}
+			],
+			"wp:attachment": [
+				{
+					"href": "https://yobic.co/wp-json/wp/v2/media?parent=312"
+				}
+			],
+			"wp:term": [
+				{
+					"taxonomy": "category",
+					"embeddable": true,
+					"href": "https://yobic.co/wp-json/wp/v2/categories?post=312"
+				},
+				{
+					"taxonomy": "post_tag",
+					"embeddable": true,
+					"href": "https://yobic.co/wp-json/wp/v2/tags?post=312"
+				}
+			],
+			"curies": [
+				{
+					"name": "wp",
+					"href": "https://api.w.org/{rel}",
+					"templated": true
+				}
+			]
+		},
+		"_embedded": {
+			"author": [
+				{
+					"id": 1,
+					"name": "HrkPPoi",
+					"url": "",
+					"description": "",
+					"link": "https://yobic.co/author/HrkPPoi/",
+					"slug": "HrkPPoi",
+					"avatar_urls": {
+						"24": "https://secure.gravatar.com/avatar/4592bf5a91a1df511da59762e18b5d2b?s=24&d=mm&r=g",
+						"48": "https://secure.gravatar.com/avatar/4592bf5a91a1df511da59762e18b5d2b?s=48&d=mm&r=g",
+						"96": "https://secure.gravatar.com/avatar/4592bf5a91a1df511da59762e18b5d2b?s=96&d=mm&r=g"
+					},
+					"_links": {
+						"self": [
+							{
+								"href": "https://yobic.co/wp-json/wp/v2/users/1"
+							}
+						],
+						"collection": [
+							{
+								"href": "https://yobic.co/wp-json/wp/v2/users"
+							}
+						]
+					}
+				}
+			],
+			"wp:featuredmedia": [
+				{
+					"id": 304,
+					"date": "2018-12-14T23:07:16",
+					"slug": "%e3%83%95%e3%82%99%e3%83%a9%e3%83%b3%e3%83%88%e3%82%99%e3%82%bf%e3%82%a4%e3%83%88%e3%83%ab",
+					"type": "attachment",
+					"link": "https://yobic.co/package/NW01_1/%e3%83%95%e3%82%99%e3%83%a9%e3%83%b3%e3%83%88%e3%82%99%e3%82%bf%e3%82%a4%e3%83%88%e3%83%ab/",
+					"title": {
+						"rendered": "ブランドタイトル"
+					},
+					"author": 1,
+					"caption": {
+						"rendered": ""
+					},
+					"alt_text": "",
+					"media_type": "image",
+					"mime_type": "image/jpeg",
+					"media_details": {
+						"width": 1920,
+						"height": 1080,
+						"file": "2018/12/ブランドタイトル.jpg",
+						"sizes": {
+							"thumbnail": {
+								"file": "ブランドタイトル-150x150.jpg",
+								"width": 150,
+								"height": 150,
+								"mime_type": "image/jpeg",
+								"source_url": "https://yobic.co/wp-content/uploads/2018/12/ブランドタイトル-150x150.jpg"
+							},
+							"medium": {
+								"file": "ブランドタイトル-300x169.jpg",
+								"width": 300,
+								"height": 169,
+								"mime_type": "image/jpeg",
+								"source_url": "https://yobic.co/wp-content/uploads/2018/12/ブランドタイトル-300x169.jpg"
+							},
+							"medium_large": {
+								"file": "ブランドタイトル-768x432.jpg",
+								"width": 768,
+								"height": 432,
+								"mime_type": "image/jpeg",
+								"source_url": "https://yobic.co/wp-content/uploads/2018/12/ブランドタイトル-768x432.jpg"
+							},
+							"large": {
+								"file": "ブランドタイトル-1024x576.jpg",
+								"width": 1024,
+								"height": 576,
+								"mime_type": "image/jpeg",
+								"source_url": "https://yobic.co/wp-content/uploads/2018/12/ブランドタイトル-1024x576.jpg"
+							},
+							"home-thum": {
+								"file": "ブランドタイトル-486x290.jpg",
+								"width": 486,
+								"height": 290,
+								"mime_type": "image/jpeg",
+								"source_url": "https://yobic.co/wp-content/uploads/2018/12/ブランドタイトル-486x290.jpg"
+							},
+							"post-thum": {
+								"file": "ブランドタイトル-300x200.jpg",
+								"width": 300,
+								"height": 200,
+								"mime_type": "image/jpeg",
+								"source_url": "https://yobic.co/wp-content/uploads/2018/12/ブランドタイトル-300x200.jpg"
+							},
+							"full": {
+								"file": "ブランドタイトル.jpg",
+								"width": 1920,
+								"height": 1080,
+								"mime_type": "image/jpeg",
+								"source_url": "https://yobic.co/wp-content/uploads/2018/12/ブランドタイトル.jpg"
+							}
+						},
+						"image_meta": {
+							"aperture": "0",
+							"credit": "",
+							"camera": "",
+							"caption": "",
+							"created_timestamp": "0",
+							"copyright": "",
+							"focal_length": "0",
+							"iso": "0",
+							"shutter_speed": "0",
+							"title": "",
+							"orientation": "0",
+							"keywords": []
+						}
+					},
+					"source_url": "https://yobic.co/wp-content/uploads/2018/12/ブランドタイトル.jpg",
+					"_links": {
+						"self": [
+							{
+								"attributes": [],
+								"href": "https://yobic.co/wp-json/wp/v2/media/304"
+							}
+						],
+						"collection": [
+							{
+								"attributes": [],
+								"href": "https://yobic.co/wp-json/wp/v2/media"
+							}
+						],
+						"about": [
+							{
+								"attributes": [],
+								"href": "https://yobic.co/wp-json/wp/v2/types/attachment"
+							}
+						],
+						"author": [
+							{
+								"attributes": {
+									"embeddable": true
+								},
+								"href": "https://yobic.co/wp-json/wp/v2/users/1"
+							}
+						],
+						"replies": [
+							{
+								"attributes": {
+									"embeddable": true
+								},
+								"href": "https://yobic.co/wp-json/wp/v2/comments?post=304"
+							}
+						]
+					}
+				}
+			],
+			"wp:term": [
+				[
+					{
+						"id": 8,
+						"link": "https://yobic.co/category/%e3%83%88%e3%83%94%e3%83%83%e3%82%af/",
+						"name": "トピック",
+						"slug": "%e3%83%88%e3%83%94%e3%83%83%e3%82%af",
+						"taxonomy": "category",
+						"_links": {
+							"self": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/categories/8"
+								}
+							],
+							"collection": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/categories"
+								}
+							],
+							"about": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/taxonomies/category"
+								}
+							],
+							"wp:post_type": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/posts?categories=8"
+								}
+							],
+							"curies": [
+								{
+									"name": "wp",
+									"href": "https://api.w.org/{rel}",
+									"templated": true
+								}
+							]
+						}
+					}
+				],
+				[
+					{
+						"id": 3,
+						"link": "https://yobic.co/tag/%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af/",
+						"name": "ネットワーク",
+						"slug": "%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af",
+						"taxonomy": "post_tag",
+						"_links": {
+							"self": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/tags/3"
+								}
+							],
+							"collection": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/tags"
+								}
+							],
+							"about": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/taxonomies/post_tag"
+								}
+							],
+							"wp:post_type": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/posts?tags=3"
+								},
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/pages?tags=3"
+								}
+							],
+							"curies": [
+								{
+									"name": "wp",
+									"href": "https://api.w.org/{rel}",
+									"templated": true
+								}
+							]
+						}
+					}
+				]
+			]
+		}
+	},
+	{
+		"id": 175,
+		"date": "2018-12-14T22:23:05",
+		"date_gmt": "2018-12-14T13:23:05",
+		"guid": {
+			"rendered": "http://yobic.co/?p=175"
+		},
+		"modified": "2019-01-15T12:52:08",
+		"modified_gmt": "2019-01-15T03:52:08",
+		"slug": "%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af%e6%a6%82%e8%a6%81",
+		"status": "publish",
+		"type": "post",
+		"link": "https://yobic.co/package/NW01_1",
+		"title": {
+			"rendered": "ネットワーク概要"
+		},
+		"content": {
+			"rendered": "<p><!-- wp:shortcode --></p>\n<p><center><img class=\"aligncenter size-large wp-image-305\" src=\"http://yobic.co/wp-content/uploads/2018/12/NW概要-1024x576.jpg\" alt=\"\" width=\"800\" height=\"450\" srcset=\"https://yobic.co/wp-content/uploads/2018/12/NW概要-1024x576.jpg 1024w, https://yobic.co/wp-content/uploads/2018/12/NW概要-300x169.jpg 300w, https://yobic.co/wp-content/uploads/2018/12/NW概要-768x432.jpg 768w\" sizes=\"(max-width: 800px) 100vw, 800px\" /></center><div class=\"voice cf r\"><figure class=\"icon\"><img src=\"http://yobic.co/wp-content/uploads/2018/10/arute.jpg\"><figcaption class=\"name\"></figcaption></figure><div class=\"voicecomment\">みなさんこんにちは&#x2757;&#xfe0f;<br />\nyobico の ひろきppoi （ @HrkPPOI ）です&#x1f606;</div></div>\n<p><!-- /wp:shortcode --></p>\n<p><!-- wp:shortcode --></p>\n<div class=\"voice cf l\"><figure class=\"icon\"><img src=\"http://yobic.co/wp-content/uploads/2018/12/yomiko_happy-1-e1544084319350.png\"><figcaption class=\"name\"></figcaption></figure><div class=\"voicecomment\">質問役のヨミコです</div></div>\n<p><!-- /wp:shortcode --></p>\n<p><!-- wp:paragraph --></p>\n<p>このパッケージでは，ITSS Level 1 の深さで，ネットワーク概要に関するトピックをまとめています。</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:list --></p>\n<ul>\n<li> IT パスポートを受験するかた</li>\n<li>ネットワークの基礎を理解したいかた</li>\n</ul>\n<p><!-- /wp:list --></p>\n<p><!-- wp:paragraph --></p>\n<p>は，ぜひ以下のトピックを理解しておきましょう&#x203c;&#xfe0f;</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:html --></p>\n<div class=\"zentei\">\n<p><span class=\"zentei-title\">トピック一覧</span></p>\n<ol>\n<li><a href=\"http://yobic.co/topic/NWL1_001\">ネットワークとは</a></li>\n<li><a href=\"http://yobic.co/topic/NWL1_002\">コンピュータネットワークとは</a></li>\n</ol>\n</div>\n<div class=\"column-wrap cf \">\n<div class=\"col2\"><iframe src=\"https://www.youtube.com/embed/aKCKnjdYLOM\" width=\"100%\" height=\"auto\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe></div>\n<div class=\"col2\"><iframe src=\"https://www.youtube.com/embed/_TJmV65kKP0\" width=\"100%\" height=\"auto\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe></div>\n</div>\n<p><!-- wp:heading --></p>\n<h2>ネットワーク概要とはどんな項目なのか？</h2>\n<p><!-- /wp:heading --></p>\n<p><!-- wp:paragraph --></p>\n<p>この 2 つのトピックは，ネットワーク分野の初歩の初歩，導入の導入となります。</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<p>後続のトピックが「プロトコル」だの「 URL 」だの「 IP アドレス」だのといかにもネットワークっぽい学習内容なのに対して，<strong>ここで扱うトピックは<span class=\"marker_Gold\">「そもそもぼくらが学習する『ネットワーク』とは何のことなのか？」</span>から話を始めています。</strong></p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<div class=\"voice cf l\"><figure class=\"icon\"><img src=\"http://yobic.co/wp-content/uploads/2018/12/yomiko_angry.png\"><figcaption class=\"name\"></figcaption></figure><div class=\"voicecomment\">\n<p>それならなんとなく分かるので，飛ばしてしまってもいいですか？</p>\n</div></div>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<p>もちろん「ダメ」とは言いませんが， 2 つのトピックを取り組むのには 10 分もかかかりません。</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<div class=\"voice cf r\"><figure class=\"icon\"><img src=\"http://yobic.co/wp-content/uploads/2018/10/arute.jpg\"><figcaption class=\"name\"></figcaption></figure><div class=\"voicecomment\">\n<p>紅茶かコーヒーでも飲みながら，軽い気持ちで取り組んでみてください。</p>\n</div></div>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:html --></p>\n<p><!-- /wp:html --></p>\n<p><!-- wp:heading --></p>\n<h2>関連するパッケージ</h2>\n<p><!-- /wp:heading --></p>\n<p><!-- wp:paragraph --></p>\n<p>このページは，以下のパッケージに含まれています。</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:html --></p>\n<div class=\"zentei\">\n<p><span class=\"zentei-title\">親パッケージ</span></p>\n<ul>\n<li><a href=\"http://yobic.co/package/NW01\">ネットワーク目次</a>（ITSS_Level1）</li>\n</ul>\n</div>\n<p><!-- /wp:html --></p>\n<p><!-- wp:paragraph --></p>\n<p><strong>どこを学習していたのか分からなくなってしまった場合</strong>は，全体像を確認しましょう。また，<strong>検索などでこのページをたまたま見つけたかた</strong>は，気になる内容が載っているかもしれません&#x1f4da;</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<p>&nbsp;</p>\n<p><!-- /wp:paragraph --></p>\n",
+			"protected": false
+		},
+		"excerpt": {
+			"rendered": "<p>このパッケージでは，ITSS Level 1 の深さで，ネットワーク概要に関するトピックをまとめています。  &#8230;</p>\n",
+			"protected": false
+		},
+		"author": 1,
+		"featured_media": 0,
+		"comment_status": "open",
+		"ping_status": "open",
+		"sticky": false,
+		"template": "",
+		"format": "standard",
+		"meta": [],
+		"categories": [
+			6,
+			5
+		],
+		"tags": [
+			2,
+			3
+		],
+		"_links": {
+			"self": [
+				{
+					"href": "https://yobic.co/wp-json/wp/v2/posts/175"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://yobic.co/wp-json/wp/v2/posts"
+				}
+			],
+			"about": [
+				{
+					"href": "https://yobic.co/wp-json/wp/v2/types/post"
+				}
+			],
+			"author": [
+				{
+					"embeddable": true,
+					"href": "https://yobic.co/wp-json/wp/v2/users/1"
+				}
+			],
+			"replies": [
+				{
+					"embeddable": true,
+					"href": "https://yobic.co/wp-json/wp/v2/comments?post=175"
+				}
+			],
+			"version-history": [
+				{
+					"count": 23,
+					"href": "https://yobic.co/wp-json/wp/v2/posts/175/revisions"
+				}
+			],
+			"predecessor-version": [
+				{
+					"id": 327,
+					"href": "https://yobic.co/wp-json/wp/v2/posts/175/revisions/327"
+				}
+			],
+			"wp:attachment": [
+				{
+					"href": "https://yobic.co/wp-json/wp/v2/media?parent=175"
+				}
+			],
+			"wp:term": [
+				{
+					"taxonomy": "category",
+					"embeddable": true,
+					"href": "https://yobic.co/wp-json/wp/v2/categories?post=175"
+				},
+				{
+					"taxonomy": "post_tag",
+					"embeddable": true,
+					"href": "https://yobic.co/wp-json/wp/v2/tags?post=175"
+				}
+			],
+			"curies": [
+				{
+					"name": "wp",
+					"href": "https://api.w.org/{rel}",
+					"templated": true
+				}
+			]
+		},
+		"_embedded": {
+			"author": [
+				{
+					"id": 1,
+					"name": "HrkPPoi",
+					"url": "",
+					"description": "",
+					"link": "https://yobic.co/author/HrkPPoi/",
+					"slug": "HrkPPoi",
+					"avatar_urls": {
+						"24": "https://secure.gravatar.com/avatar/4592bf5a91a1df511da59762e18b5d2b?s=24&d=mm&r=g",
+						"48": "https://secure.gravatar.com/avatar/4592bf5a91a1df511da59762e18b5d2b?s=48&d=mm&r=g",
+						"96": "https://secure.gravatar.com/avatar/4592bf5a91a1df511da59762e18b5d2b?s=96&d=mm&r=g"
+					},
+					"_links": {
+						"self": [
+							{
+								"href": "https://yobic.co/wp-json/wp/v2/users/1"
+							}
+						],
+						"collection": [
+							{
+								"href": "https://yobic.co/wp-json/wp/v2/users"
+							}
+						]
+					}
+				}
+			],
+			"wp:term": [
+				[
+					{
+						"id": 6,
+						"link": "https://yobic.co/category/%e3%83%91%e3%83%83%e3%82%b1%e3%83%bc%e3%82%b8/itss_level1/",
+						"name": "ITSS_Level1",
+						"slug": "itss_level1",
+						"taxonomy": "category",
+						"_links": {
+							"self": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/categories/6"
+								}
+							],
+							"collection": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/categories"
+								}
+							],
+							"about": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/taxonomies/category"
+								}
+							],
+							"up": [
+								{
+									"embeddable": true,
+									"href": "https://yobic.co/wp-json/wp/v2/categories/5"
+								}
+							],
+							"wp:post_type": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/posts?categories=6"
+								}
+							],
+							"curies": [
+								{
+									"name": "wp",
+									"href": "https://api.w.org/{rel}",
+									"templated": true
+								}
+							]
+						}
+					},
+					{
+						"id": 5,
+						"link": "https://yobic.co/category/%e3%83%91%e3%83%83%e3%82%b1%e3%83%bc%e3%82%b8/",
+						"name": "パッケージ",
+						"slug": "%e3%83%91%e3%83%83%e3%82%b1%e3%83%bc%e3%82%b8",
+						"taxonomy": "category",
+						"_links": {
+							"self": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/categories/5"
+								}
+							],
+							"collection": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/categories"
+								}
+							],
+							"about": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/taxonomies/category"
+								}
+							],
+							"wp:post_type": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/posts?categories=5"
+								}
+							],
+							"curies": [
+								{
+									"name": "wp",
+									"href": "https://api.w.org/{rel}",
+									"templated": true
+								}
+							]
+						}
+					}
+				],
+				[
+					{
+						"id": 2,
+						"link": "https://yobic.co/tag/it%e3%83%91%e3%82%b9%e3%83%9d%e3%83%bc%e3%83%88/",
+						"name": "ITパスポート",
+						"slug": "it%e3%83%91%e3%82%b9%e3%83%9d%e3%83%bc%e3%83%88",
+						"taxonomy": "post_tag",
+						"_links": {
+							"self": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/tags/2"
+								}
+							],
+							"collection": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/tags"
+								}
+							],
+							"about": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/taxonomies/post_tag"
+								}
+							],
+							"wp:post_type": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/posts?tags=2"
+								},
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/pages?tags=2"
+								}
+							],
+							"curies": [
+								{
+									"name": "wp",
+									"href": "https://api.w.org/{rel}",
+									"templated": true
+								}
+							]
+						}
+					},
+					{
+						"id": 3,
+						"link": "https://yobic.co/tag/%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af/",
+						"name": "ネットワーク",
+						"slug": "%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af",
+						"taxonomy": "post_tag",
+						"_links": {
+							"self": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/tags/3"
+								}
+							],
+							"collection": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/tags"
+								}
+							],
+							"about": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/taxonomies/post_tag"
+								}
+							],
+							"wp:post_type": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/posts?tags=3"
+								},
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/pages?tags=3"
+								}
+							],
+							"curies": [
+								{
+									"name": "wp",
+									"href": "https://api.w.org/{rel}",
+									"templated": true
+								}
+							]
+						}
+					}
+				]
+			]
+		}
+	},
+	{
+		"id": 265,
+		"date": "2018-12-10T16:40:38",
+		"date_gmt": "2018-12-10T07:40:38",
+		"guid": {
+			"rendered": "http://yobic.co/?p=265"
+		},
+		"modified": "2018-12-17T18:48:12",
+		"modified_gmt": "2018-12-17T09:48:12",
+		"slug": "%e3%80%90itss-level-1%e3%80%91%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af%e7%9b%ae%e6%ac%a1",
+		"status": "publish",
+		"type": "post",
+		"link": "https://yobic.co/package/NW01",
+		"title": {
+			"rendered": "【ITSS Level 1】ネットワーク目次"
+		},
+		"content": {
+			"rendered": "<img class=\"aligncenter size-large wp-image-308\" src=\"http://yobic.co/wp-content/uploads/2018/12/NW全体目次-1024x576.jpg\" alt=\"\" width=\"800\" height=\"450\" srcset=\"https://yobic.co/wp-content/uploads/2018/12/NW全体目次-1024x576.jpg 1024w, https://yobic.co/wp-content/uploads/2018/12/NW全体目次-300x169.jpg 300w, https://yobic.co/wp-content/uploads/2018/12/NW全体目次-768x432.jpg 768w\" sizes=\"(max-width: 800px) 100vw, 800px\" />\n<p><!-- wp:shortcode --></p>\n<div class=\"voice cf r\"><figure class=\"icon\"><img src=\"http://yobic.co/wp-content/uploads/2018/10/arute.jpg\"><figcaption class=\"name\"></figcaption></figure><div class=\"voicecomment\">みなさんこんにちは&#x2757;&#xfe0f; yobico の ひろきppoi （ @HrkPPOI ）です&#x1f606;</div></div>\n<p><!-- /wp:shortcode --></p>\n<p><!-- wp:shortcode --></p>\n<div class=\"voice cf l\"><figure class=\"icon\"><img src=\"http://yobic.co/wp-content/uploads/2018/12/yomiko_happy-1-e1544084319350.png\"><figcaption class=\"name\"></figcaption></figure><div class=\"voicecomment\">質問役のヨミコです</div></div>\n<p><!-- /wp:shortcode --></p>\n<p><!-- wp:paragraph --></p>\n<p>このパッケージでは，ITSS Level 1 の深さで，ネットワークに関するトピックをまとめています。</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:list --></p>\n<ul>\n<li> IT パスポートを受験するかた</li>\n<li>ネットワークの基礎を理解したいかた</li>\n</ul>\n<p><!-- /wp:list --></p>\n<p><!-- wp:paragraph --></p>\n<p>は，このパッケージを目次にして学習を進めましょう&#x203c;&#xfe0f;</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:html --></p>\n<h2>目次</h2>\n<p>ネットワークに含まれるのは以下のパッケージとトピックです。</p>\n<p>なお，パッケージは<em>先頭に数字を振った箇条書き</em>，トピックは<em>テンの箇条書き</em>で表しています。</p>\n<div class=\"supplement normal\"> yobico では，１つの項目について解説した記事を<em>トピック</em>と呼び，複数の項目をまとめたものを<em>パッケージ</em>と呼んでいます。詳しくは<a href=\"http://yobic.co/usage\">こちら</a>をご覧ください。 </div>\n<ol>\n<li><a href=\"http://yobic.co/package/NW01_1\">ネットワーク概要</a>\n<ul>\n<li><a href=\"http://yobic.co/topic/NWL1_001\">ネットワークとは</a></li>\n<li><a href=\"http://yobic.co/topic/NWL1_001\">コンピュータネットワークとは</a></li>\n</ul>\n</li>\n<li>通信プロトコル\n<ol>\n<li>概要</li>\n<li>プロトコル階層を横断する概念\n<ol>\n<li>アドレス\n<ol>\n<li>MAC アドレス</li>\n<li>IP アドレス</li>\n<li>ポート番号</li>\n<li>URL</li>\n</ol>\n</li>\n<li>ネットワーク機器</li>\n</ol>\n</li>\n<li>ネットワークインターフェイス層</li>\n<li>インターネット層</li>\n<li>トランスポート層</li>\n<li>アプリケーション層</li>\n</ol>\n</li>\n<li>ネットワークセキュリティ\n<ol>\n<li>概要</li>\n<li>無線 LAN のセキュリティ</li>\n<li>そのほか</li>\n</ol>\n</li>\n</ol>\n<p><!-- /wp:heading --></p>\n<p><!-- wp:paragraph --><!-- /wp:html --></p>\n<p><!-- wp:heading --><!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<p>&nbsp;</p>\n<p><!-- /wp:paragraph --></p>\n",
+			"protected": false
+		},
+		"excerpt": {
+			"rendered": "<p>このパッケージでは，ITSS Level 1 の深さで，ネットワークに関するトピックをまとめています。  IT&#8230;</p>\n",
+			"protected": false
+		},
+		"author": 1,
+		"featured_media": 0,
+		"comment_status": "open",
+		"ping_status": "open",
+		"sticky": false,
+		"template": "",
+		"format": "standard",
+		"meta": [],
+		"categories": [
+			6
+		],
+		"tags": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://yobic.co/wp-json/wp/v2/posts/265"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://yobic.co/wp-json/wp/v2/posts"
+				}
+			],
+			"about": [
+				{
+					"href": "https://yobic.co/wp-json/wp/v2/types/post"
+				}
+			],
+			"author": [
+				{
+					"embeddable": true,
+					"href": "https://yobic.co/wp-json/wp/v2/users/1"
+				}
+			],
+			"replies": [
+				{
+					"embeddable": true,
+					"href": "https://yobic.co/wp-json/wp/v2/comments?post=265"
+				}
+			],
+			"version-history": [
+				{
+					"count": 24,
+					"href": "https://yobic.co/wp-json/wp/v2/posts/265/revisions"
+				}
+			],
+			"predecessor-version": [
+				{
+					"id": 307,
+					"href": "https://yobic.co/wp-json/wp/v2/posts/265/revisions/307"
+				}
+			],
+			"wp:attachment": [
+				{
+					"href": "https://yobic.co/wp-json/wp/v2/media?parent=265"
+				}
+			],
+			"wp:term": [
+				{
+					"taxonomy": "category",
+					"embeddable": true,
+					"href": "https://yobic.co/wp-json/wp/v2/categories?post=265"
+				},
+				{
+					"taxonomy": "post_tag",
+					"embeddable": true,
+					"href": "https://yobic.co/wp-json/wp/v2/tags?post=265"
+				}
+			],
+			"curies": [
+				{
+					"name": "wp",
+					"href": "https://api.w.org/{rel}",
+					"templated": true
+				}
+			]
+		},
+		"_embedded": {
+			"author": [
+				{
+					"id": 1,
+					"name": "HrkPPoi",
+					"url": "",
+					"description": "",
+					"link": "https://yobic.co/author/HrkPPoi/",
+					"slug": "HrkPPoi",
+					"avatar_urls": {
+						"24": "https://secure.gravatar.com/avatar/4592bf5a91a1df511da59762e18b5d2b?s=24&d=mm&r=g",
+						"48": "https://secure.gravatar.com/avatar/4592bf5a91a1df511da59762e18b5d2b?s=48&d=mm&r=g",
+						"96": "https://secure.gravatar.com/avatar/4592bf5a91a1df511da59762e18b5d2b?s=96&d=mm&r=g"
+					},
+					"_links": {
+						"self": [
+							{
+								"href": "https://yobic.co/wp-json/wp/v2/users/1"
+							}
+						],
+						"collection": [
+							{
+								"href": "https://yobic.co/wp-json/wp/v2/users"
+							}
+						]
+					}
+				}
+			],
+			"wp:term": [
+				[
+					{
+						"id": 6,
+						"link": "https://yobic.co/category/%e3%83%91%e3%83%83%e3%82%b1%e3%83%bc%e3%82%b8/itss_level1/",
+						"name": "ITSS_Level1",
+						"slug": "itss_level1",
+						"taxonomy": "category",
+						"_links": {
+							"self": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/categories/6"
+								}
+							],
+							"collection": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/categories"
+								}
+							],
+							"about": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/taxonomies/category"
+								}
+							],
+							"up": [
+								{
+									"embeddable": true,
+									"href": "https://yobic.co/wp-json/wp/v2/categories/5"
+								}
+							],
+							"wp:post_type": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/posts?categories=6"
+								}
+							],
+							"curies": [
+								{
+									"name": "wp",
+									"href": "https://api.w.org/{rel}",
+									"templated": true
+								}
+							]
+						}
+					}
+				],
+				[]
+			]
+		}
+	},
+	{
+		"id": 213,
+		"date": "2018-12-10T16:04:35",
+		"date_gmt": "2018-12-10T07:04:35",
+		"guid": {
+			"rendered": "http://yobic.co/?p=213"
+		},
+		"modified": "2018-12-15T00:13:41",
+		"modified_gmt": "2018-12-14T15:13:41",
+		"slug": "%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af%e3%81%a8%e3%81%af",
+		"status": "publish",
+		"type": "post",
+		"link": "https://yobic.co/topic/NWL1_001",
+		"title": {
+			"rendered": "ネットワークとは"
+		},
+		"content": {
+			"rendered": "<p><center><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/aKCKnjdYLOM\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></center></p>\n<p>みなさんこんにちは。yobico の ひろきppoi （ @HrkPPOI ）です&#x1f604;</p>\n<div class=\"voice cf l\"><figure class=\"icon\"><img src=\"http://yobic.co/wp-content/uploads/2018/12/yomiko_happy-1-e1544084319350.png\"><figcaption class=\"name\"></figcaption></figure><div class=\"voicecomment\">質問役のヨミコです</div></div>\n<p>この記事では，<strong><span class=\"marker_Gold\">ネットワークの用語の意味</span></strong>について説明します。</p>\n<div class=\"voice cf l\"><figure class=\"icon\"><img src=\"http://yobic.co/wp-content/uploads/2018/12/yomiko_angry.png\"><figcaption class=\"name\"></figcaption></figure><div class=\"voicecomment\">ネットワークってよく聞きますけど，改めて考えると分かりません</div></div>\n<p>早速見ていきましょう！</p>\n<h2>１分で分かるネットワーク</h2>\n<p>この記事の概要です。ザッと流れを掴んだり復習に使ったりしてください&#x1f44d;</p>\n<h3>言葉の意味 &#8211; ネットワーク</h3>\n<table class=\"minwakaru\">\n<tbody>\n<tr>\n<td class=\"big-emoji\">&#x1f9d0;</td>\n<td class=\"script\"><em>（電線・血管・通路などの）網状のもの，網状組織；密接な相互関連のある建物［事務所，駅など］の組織</em> &#8211; ランダムハウス英和大辞典</td>\n</tr>\n<tr>\n<td class=\"big-emoji\">&#x1f61c;</td>\n<td class=\"script\">「つながり」だよ。一人じゃ寂しいからね。</td>\n</tr>\n</tbody>\n</table>\n<h3>話の流れ</h3>\n<table class=\"minwakaru\">\n<tbody>\n<tr>\n<td class=\"big-emoji\">&#x1f603;</td>\n<td class=\"script\">世の中にはたくさんのモノがあるぞ</td>\n</tr>\n<tr>\n<td class=\"big-emoji\">&#x1f622;</td>\n<td class=\"script\">モノがあっても，自分一人で使うだけではあまり役に立たない</td>\n</tr>\n<tr>\n<td class=\"big-emoji\">&#x1f914;</td>\n<td class=\"script\">もっと必要とする人に届けたい</td>\n</tr>\n<tr>\n<td class=\"big-emoji\">&#x1f60e;</td>\n<td class=\"script\">人と人とを「つなげ」て，モノを届けよう！</td>\n</tr>\n</tbody>\n</table>\n<h2>前提知識</h2>\n<p>以下の理解が必要です。もし分からなければ，該当ページを参照してください&#x1f4da;</p>\n<p>── <em>このトピックに必要な前提知識はありません</em>。学習を始めましょう！</p>\n<h2>背景</h2>\n<img class=\"aligncenter size-large wp-image-297\" src=\"http://yobic.co/wp-content/uploads/2018/12/スライド9-1024x576.jpeg\" alt=\"\" width=\"800\" height=\"450\" srcset=\"https://yobic.co/wp-content/uploads/2018/12/スライド9-1024x576.jpeg 1024w, https://yobic.co/wp-content/uploads/2018/12/スライド9-300x169.jpeg 300w, https://yobic.co/wp-content/uploads/2018/12/スライド9-768x432.jpeg 768w\" sizes=\"(max-width: 800px) 100vw, 800px\" />\n<p>現代は <em><strong>ネットワークのある世界</strong> が当たり前</em>ですよね。そのため「ネットワークが何か？」はイメージしづらくなっています。</p>\n<p>そこで思考を巻き戻して，昔話のような世界をイメージしてみましょう。おじいさんが山に草刈りに行き，おばあさんが川に洗濯に行くような世界です。</p>\n<p>そんな世界であってもたくさんのモノが溢れています。</p>\n<ul>\n<li>海辺なら「肉」</li>\n<li>森なら「肉」</li>\n<li>平野なら「米」</li>\n</ul>\n<p>と，地域によってそれぞれ，「余るほどモノ」があります。反面，海辺には米がないなどというように「足りないもの」もあります。</p>\n<div class=\"voice cf l\"><figure class=\"icon\"><img src=\"http://yobic.co/wp-content/uploads/2018/12/yomiko_angry.png\"><figcaption class=\"name\"></figcaption></figure><div class=\"voicecomment\">私はお肉もお魚もお米も食べたいです</div></div>\n<p>もちろんそうですよね。</p>\n<p>ではどうすればいいのかというと，<strong>海と森を「つなげて」，<span class=\"marker_Gold\">魚や肉を交換すればいい</span>の</strong>です。</p>\n<p>このままでは，相変わらず平野では肉も魚も食べられません。そこで例えば，次のように，たくさんのつながりを作ってみましょう。</p>\n<ul>\n<li>海と森をつなげる</li>\n<li>海と平野をつなげる</li>\n<li>平野と森をつなげる</li>\n</ul>\n<p>これで，すべての地域で，肉も魚も米も食べられるようになりました。</p>\n<div class=\"voice cf r\"><figure class=\"icon\"><img src=\"http://yobic.co/wp-content/uploads/2018/10/arute.jpg\"><figcaption class=\"name\"></figcaption></figure><div class=\"voicecomment\">このつながりの規模が大きくなっていくと，網目模様のように複雑になることが想像できるでしょう&#x1f447;</div></div>\n<img class=\"aligncenter size-large wp-image-298\" src=\"http://yobic.co/wp-content/uploads/2018/12/スライド12-1024x576.jpeg\" alt=\"\" width=\"800\" height=\"450\" srcset=\"https://yobic.co/wp-content/uploads/2018/12/スライド12-1024x576.jpeg 1024w, https://yobic.co/wp-content/uploads/2018/12/スライド12-300x169.jpeg 300w, https://yobic.co/wp-content/uploads/2018/12/スライド12-768x432.jpeg 768w\" sizes=\"(max-width: 800px) 100vw, 800px\" />\n<h2>ネットワークとは</h2>\n<p>ネットワーク（network）とは，以下のような定義です。</p>\n<div class=\"supplement boader\">\n<em>（電線・血管・通路などの）網状のもの，網状組織；密接な相互関連のある建物［事務所，駅など］の組織</em> &#8211; ランダムハウス英和大辞典<br />\n</div>\n<p>つまるところ<em>ネットワークとは，<strong>網状につながったもの</strong>の総称</em>であり，要するに，</p>\n<ul>\n<li>つながっているもの</li>\n<li>つながり</li>\n</ul>\n<p>のことだと理解してください。</p>\n<p>話を現代風にすると，次のような例があります。</p>\n<div class=\"column-wrap cf \"> <div class=\"col2\"><img class=\"aligncenter size-large wp-image-299\" src=\"http://yobic.co/wp-content/uploads/2018/12/スライド18-1024x576.jpeg\" alt=\"\" width=\"800\" height=\"450\" srcset=\"https://yobic.co/wp-content/uploads/2018/12/スライド18-1024x576.jpeg 1024w, https://yobic.co/wp-content/uploads/2018/12/スライド18-300x169.jpeg 300w, https://yobic.co/wp-content/uploads/2018/12/スライド18-768x432.jpeg 768w\" sizes=\"(max-width: 800px) 100vw, 800px\" /> </div> <div class=\"col2\"><img class=\"aligncenter size-large wp-image-300\" src=\"http://yobic.co/wp-content/uploads/2018/12/スライド21-1024x576.jpeg\" alt=\"\" width=\"800\" height=\"450\" srcset=\"https://yobic.co/wp-content/uploads/2018/12/スライド21-1024x576.jpeg 1024w, https://yobic.co/wp-content/uploads/2018/12/スライド21-300x169.jpeg 300w, https://yobic.co/wp-content/uploads/2018/12/スライド21-768x432.jpeg 768w\" sizes=\"(max-width: 800px) 100vw, 800px\" /></div> </div>\n<ol>\n<li><em>テレビの放送網の例</em><br />\nテレビ局から家庭までが「つながる」ことで，どの家庭でも様々なテレビを見ることができる</li>\n<li><em>コンピュータネットワークの例</em><br />\n各コンピュータ（スマートフォンやパソコン）が互いに「つながる」ことで，連絡を取り合ったり，アップロードした写真に「いいね！」をつけたりすることができる</li>\n</ol>\n<p>テレビにしてもコンピュータにしても，<em>機械自体は <strong>大した役に立たないハコ</strong> ですよね。</em></p>\n<p>私たちの日常生活は，これらの機械を外の世界とつなげて，情報を交換することで，便利で楽しいものになっているのです。</p>\n<div class=\"voice cf l\"><figure class=\"icon\"><img src=\"http://yobic.co/wp-content/uploads/2018/12/yomiko_angry.png\"><figcaption class=\"name\"></figcaption></figure><div class=\"voicecomment\">情報？　モノを運ぶという話じゃなかったでしたっけ？</div></div>\n<div class=\"voice cf r\"><figure class=\"icon\"><img src=\"http://yobic.co/wp-content/uploads/2018/10/arute.jpg\"><figcaption class=\"name\"></figcaption></figure><div class=\"voicecomment\"><em>モノだけでなく <strong>情報も含んだもの</strong> </em>だと理解してください</div></div>\n<p>昔話の世界観であれば「魚」や「米」と言ったモノだけを運んでいれば足りました。現代でもモノを運ぶネットワークはもちろんあり，物流ネットワークなどがその例です。</p>\n<p>しかし，現代ではモノだけでなく情報の価値も非常に大きく，情報もネットワークによって運んでいます。<em>口コミ</em>や<em>噂</em>もネットワークと言えるかもしれませんが，この後のトピックでは<em>コンピュータが情報を運ぶ仕組み</em>を詳しく学んでいきます。</p>\n<div class=\"supplement normal\">\n<p>ネットワークにつながらないコンピュータを「ただのハコ」と表現するのはかなり乱暴ですが，ネットワークの説明のためですので大目に見てくださいね。</p>\n<div class=\"voice cf l\"><figure class=\"icon\"><img src=\"http://yobic.co/wp-content/uploads/2018/12/yomiko_happy-1-e1544084319350.png\"><figcaption class=\"name\"></figcaption></figure><div class=\"voicecomment\">私はインスタがなかったらスマホで写真なんて撮らないし，Youtube が観られなかったらスマホで音楽も動画も観賞できませんよ</div></div>\n<p>この講座を見ているデジタルネイティブ世代は，案外「ただのハコ」発言に違和感はないかもしれませんね。</p>\n</div>\n<h2>関連項目</h2>\n<p>ネットワークとは何か，理解できたでしょうか？</p>\n<div class=\"voice cf l\"><figure class=\"icon\"><img src=\"http://yobic.co/wp-content/uploads/2018/12/yomiko_happy-1-e1544084319350.png\"><figcaption class=\"name\"></figcaption></figure><div class=\"voicecomment\">「つなげる」というのがピンと来ないのですが，どうやってつなげるのでしょうか？</div></div>\n<div class=\"voice cf r\"><figure class=\"icon\"><img src=\"http://yobic.co/wp-content/uploads/2018/10/arute.jpg\"><figcaption class=\"name\"></figcaption></figure><div class=\"voicecomment\">\n<p>もっともな疑問です。かなり話が抽象的ですもんね。</p>\n</div></div>\n<p>「つなげる」という言葉は，たんに「何かを運べるようにする」という意味だと理解してください。</p>\n<ul>\n<li>肉や魚であれば，人間が運んでも，馬が運んでも構いません。</li>\n<li>テレビ番組の情報も，ケーブルで運んでも，衛星電波で運んでも構いません。</li>\n</ul>\n<p>どのように運ぶかという「方法」ではなく，運べたという「結果」でもって「つながる」と判断するわけです。</p>\n<p>この時点では復習することもありませんので，どんどん次のトピックスに進んでいきましょう！</p>\n",
+			"protected": false
+		},
+		"excerpt": {
+			"rendered": "<p>みなさんこんにちは。yobico の ひろきppoi （ @HrkPPOI ）です&#x1f604; この記事&#8230;</p>\n",
+			"protected": false
+		},
+		"author": 1,
+		"featured_media": 0,
+		"comment_status": "open",
+		"ping_status": "open",
+		"sticky": false,
+		"template": "",
+		"format": "standard",
+		"meta": [],
+		"categories": [
+			8
+		],
+		"tags": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://yobic.co/wp-json/wp/v2/posts/213"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://yobic.co/wp-json/wp/v2/posts"
+				}
+			],
+			"about": [
+				{
+					"href": "https://yobic.co/wp-json/wp/v2/types/post"
+				}
+			],
+			"author": [
+				{
+					"embeddable": true,
+					"href": "https://yobic.co/wp-json/wp/v2/users/1"
+				}
+			],
+			"replies": [
+				{
+					"embeddable": true,
+					"href": "https://yobic.co/wp-json/wp/v2/comments?post=213"
+				}
+			],
+			"version-history": [
+				{
+					"count": 44,
+					"href": "https://yobic.co/wp-json/wp/v2/posts/213/revisions"
+				}
+			],
+			"predecessor-version": [
+				{
+					"id": 311,
+					"href": "https://yobic.co/wp-json/wp/v2/posts/213/revisions/311"
+				}
+			],
+			"wp:attachment": [
+				{
+					"href": "https://yobic.co/wp-json/wp/v2/media?parent=213"
+				}
+			],
+			"wp:term": [
+				{
+					"taxonomy": "category",
+					"embeddable": true,
+					"href": "https://yobic.co/wp-json/wp/v2/categories?post=213"
+				},
+				{
+					"taxonomy": "post_tag",
+					"embeddable": true,
+					"href": "https://yobic.co/wp-json/wp/v2/tags?post=213"
+				}
+			],
+			"curies": [
+				{
+					"name": "wp",
+					"href": "https://api.w.org/{rel}",
+					"templated": true
+				}
+			]
+		},
+		"_embedded": {
+			"author": [
+				{
+					"id": 1,
+					"name": "HrkPPoi",
+					"url": "",
+					"description": "",
+					"link": "https://yobic.co/author/HrkPPoi/",
+					"slug": "HrkPPoi",
+					"avatar_urls": {
+						"24": "https://secure.gravatar.com/avatar/4592bf5a91a1df511da59762e18b5d2b?s=24&d=mm&r=g",
+						"48": "https://secure.gravatar.com/avatar/4592bf5a91a1df511da59762e18b5d2b?s=48&d=mm&r=g",
+						"96": "https://secure.gravatar.com/avatar/4592bf5a91a1df511da59762e18b5d2b?s=96&d=mm&r=g"
+					},
+					"_links": {
+						"self": [
+							{
+								"href": "https://yobic.co/wp-json/wp/v2/users/1"
+							}
+						],
+						"collection": [
+							{
+								"href": "https://yobic.co/wp-json/wp/v2/users"
+							}
+						]
+					}
+				}
+			],
+			"wp:term": [
+				[
+					{
+						"id": 8,
+						"link": "https://yobic.co/category/%e3%83%88%e3%83%94%e3%83%83%e3%82%af/",
+						"name": "トピック",
+						"slug": "%e3%83%88%e3%83%94%e3%83%83%e3%82%af",
+						"taxonomy": "category",
+						"_links": {
+							"self": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/categories/8"
+								}
+							],
+							"collection": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/categories"
+								}
+							],
+							"about": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/taxonomies/category"
+								}
+							],
+							"wp:post_type": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/posts?categories=8"
+								}
+							],
+							"curies": [
+								{
+									"name": "wp",
+									"href": "https://api.w.org/{rel}",
+									"templated": true
+								}
+							]
+						}
+					}
+				],
+				[]
+			]
+		}
+	},
+	{
+		"id": 4,
+		"date": "2018-10-04T21:01:22",
+		"date_gmt": "2018-10-04T12:01:22",
+		"guid": {
+			"rendered": "http://yobic.co/?p=4"
+		},
+		"modified": "2018-10-19T18:38:44",
+		"modified_gmt": "2018-10-19T09:38:44",
+		"slug": "%e9%81%b8%e6%8a%9e%e6%a7%8b%e9%80%a0%e3%81%ae%e6%a6%82%e8%a6%81-%e2%94%81%e2%94%81-%e9%81%b8%e6%8a%9e%e6%a7%8b%e9%80%a0%e3%81%a8%e3%81%af%e4%bd%95%e3%81%aa%e3%81%ae%e3%81%8b%ef%bc%9f",
+		"status": "publish",
+		"type": "post",
+		"link": "https://yobic.co/%e9%81%b8%e6%8a%9e%e6%a7%8b%e9%80%a0%e3%81%ae%e6%a6%82%e8%a6%81-%e2%94%81%e2%94%81-%e9%81%b8%e6%8a%9e%e6%a7%8b%e9%80%a0%e3%81%a8%e3%81%af%e4%bd%95%e3%81%aa%e3%81%ae%e3%81%8b%ef%bc%9f/",
+		"title": {
+			"rendered": "選択構造の概要 ━━ 選択構造とは何なのか？"
+		},
+		"content": {
+			"rendered": "",
+			"protected": true
+		},
+		"excerpt": {
+			"rendered": "",
+			"protected": true
+		},
+		"author": 1,
+		"featured_media": 0,
+		"comment_status": "open",
+		"ping_status": "open",
+		"sticky": false,
+		"template": "",
+		"format": "standard",
+		"meta": [],
+		"categories": [
+			1
+		],
+		"tags": [],
+		"_links": {
+			"self": [
+				{
+					"href": "https://yobic.co/wp-json/wp/v2/posts/4"
+				}
+			],
+			"collection": [
+				{
+					"href": "https://yobic.co/wp-json/wp/v2/posts"
+				}
+			],
+			"about": [
+				{
+					"href": "https://yobic.co/wp-json/wp/v2/types/post"
+				}
+			],
+			"author": [
+				{
+					"embeddable": true,
+					"href": "https://yobic.co/wp-json/wp/v2/users/1"
+				}
+			],
+			"replies": [
+				{
+					"embeddable": true,
+					"href": "https://yobic.co/wp-json/wp/v2/comments?post=4"
+				}
+			],
+			"version-history": [
+				{
+					"count": 48,
+					"href": "https://yobic.co/wp-json/wp/v2/posts/4/revisions"
+				}
+			],
+			"predecessor-version": [
+				{
+					"id": 184,
+					"href": "https://yobic.co/wp-json/wp/v2/posts/4/revisions/184"
+				}
+			],
+			"wp:attachment": [
+				{
+					"href": "https://yobic.co/wp-json/wp/v2/media?parent=4"
+				}
+			],
+			"wp:term": [
+				{
+					"taxonomy": "category",
+					"embeddable": true,
+					"href": "https://yobic.co/wp-json/wp/v2/categories?post=4"
+				},
+				{
+					"taxonomy": "post_tag",
+					"embeddable": true,
+					"href": "https://yobic.co/wp-json/wp/v2/tags?post=4"
+				}
+			],
+			"curies": [
+				{
+					"name": "wp",
+					"href": "https://api.w.org/{rel}",
+					"templated": true
+				}
+			]
+		},
+		"_embedded": {
+			"author": [
+				{
+					"id": 1,
+					"name": "HrkPPoi",
+					"url": "",
+					"description": "",
+					"link": "https://yobic.co/author/HrkPPoi/",
+					"slug": "HrkPPoi",
+					"avatar_urls": {
+						"24": "https://secure.gravatar.com/avatar/4592bf5a91a1df511da59762e18b5d2b?s=24&d=mm&r=g",
+						"48": "https://secure.gravatar.com/avatar/4592bf5a91a1df511da59762e18b5d2b?s=48&d=mm&r=g",
+						"96": "https://secure.gravatar.com/avatar/4592bf5a91a1df511da59762e18b5d2b?s=96&d=mm&r=g"
+					},
+					"_links": {
+						"self": [
+							{
+								"href": "https://yobic.co/wp-json/wp/v2/users/1"
+							}
+						],
+						"collection": [
+							{
+								"href": "https://yobic.co/wp-json/wp/v2/users"
+							}
+						]
+					}
+				}
+			],
+			"replies": [
+				{
+					"code": "rest_cannot_read_post",
+					"message": "このコメントのついた投稿を読む権限がありません。",
+					"data": {
+						"status": 401
+					}
+				}
+			],
+			"wp:term": [
+				[
+					{
+						"id": 1,
+						"link": "https://yobic.co/category/%e6%9c%aa%e5%88%86%e9%a1%9e/",
+						"name": "未分類",
+						"slug": "%e6%9c%aa%e5%88%86%e9%a1%9e",
+						"taxonomy": "category",
+						"_links": {
+							"self": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/categories/1"
+								}
+							],
+							"collection": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/categories"
+								}
+							],
+							"about": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/taxonomies/category"
+								}
+							],
+							"wp:post_type": [
+								{
+									"href": "https://yobic.co/wp-json/wp/v2/posts?categories=1"
+								}
+							],
+							"curies": [
+								{
+									"name": "wp",
+									"href": "https://api.w.org/{rel}",
+									"templated": true
+								}
+							]
+						}
+					}
+				],
+				[]
+			]
+		}
+	}
+]

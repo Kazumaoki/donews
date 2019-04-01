@@ -1,0 +1,238 @@
+//  const wpResponse = await app.$axios.$get('http://yobic.co/wp-json/wp/v2/posts/312?_embed')
+// console.log(JSON.stringify(wpResponse['_embedded']))
+{
+	"author": [
+		{
+			"id": 1,
+			"name": "HrkPPoi",
+			"url": "",
+			"description": "",
+			"link": "http://yobic.co/author/HrkPPoi/",
+			"slug": "HrkPPoi",
+			"avatar_urls": {
+				"24": "http://1.gravatar.com/avatar/4592bf5a91a1df511da59762e18b5d2b?s=24&d=mm&r=g",
+				"48": "http://1.gravatar.com/avatar/4592bf5a91a1df511da59762e18b5d2b?s=48&d=mm&r=g",
+				"96": "http://1.gravatar.com/avatar/4592bf5a91a1df511da59762e18b5d2b?s=96&d=mm&r=g"
+			},
+			"_links": {
+				"self": [
+					{
+						"href": "http://yobic.co/wp-json/wp/v2/users/1"
+					}
+				],
+				"collection": [
+					{
+						"href": "http://yobic.co/wp-json/wp/v2/users"
+					}
+				]
+			}
+		}
+	],
+	"wp:featuredmedia": [
+		{
+			"id": 304,
+			"date": "2018-12-14T23:07:16",
+			"slug": "%e3%83%95%e3%82%99%e3%83%a9%e3%83%b3%e3%83%88%e3%82%99%e3%82%bf%e3%82%a4%e3%83%88%e3%83%ab",
+			"type": "attachment",
+			"link": "http://yobic.co/package/NW01_1/%e3%83%95%e3%82%99%e3%83%a9%e3%83%b3%e3%83%88%e3%82%99%e3%82%bf%e3%82%a4%e3%83%88%e3%83%ab/",
+			"title": {
+				"rendered": "ブランドタイトル"
+			},
+			"author": 1,
+			"caption": {
+				"rendered": ""
+			},
+			"alt_text": "",
+			"media_type": "image",
+			"mime_type": "image/jpeg",
+			"media_details": {
+				"width": 1920,
+				"height": 1080,
+				"file": "2018/12/ブランドタイトル.jpg",
+				"sizes": {
+					"thumbnail": {
+						"file": "ブランドタイトル-150x150.jpg",
+						"width": 150,
+						"height": 150,
+						"mime_type": "image/jpeg",
+						"source_url": "http://yobic.co/wp-content/uploads/2018/12/ブランドタイトル-150x150.jpg"
+					},
+					"medium": {
+						"file": "ブランドタイトル-300x169.jpg",
+						"width": 300,
+						"height": 169,
+						"mime_type": "image/jpeg",
+						"source_url": "http://yobic.co/wp-content/uploads/2018/12/ブランドタイトル-300x169.jpg"
+					},
+					"medium_large": {
+						"file": "ブランドタイトル-768x432.jpg",
+						"width": 768,
+						"height": 432,
+						"mime_type": "image/jpeg",
+						"source_url": "http://yobic.co/wp-content/uploads/2018/12/ブランドタイトル-768x432.jpg"
+					},
+					"large": {
+						"file": "ブランドタイトル-1024x576.jpg",
+						"width": 1024,
+						"height": 576,
+						"mime_type": "image/jpeg",
+						"source_url": "http://yobic.co/wp-content/uploads/2018/12/ブランドタイトル-1024x576.jpg"
+					},
+					"home-thum": {
+						"file": "ブランドタイトル-486x290.jpg",
+						"width": 486,
+						"height": 290,
+						"mime_type": "image/jpeg",
+						"source_url": "http://yobic.co/wp-content/uploads/2018/12/ブランドタイトル-486x290.jpg"
+					},
+					"post-thum": {
+						"file": "ブランドタイトル-300x200.jpg",
+						"width": 300,
+						"height": 200,
+						"mime_type": "image/jpeg",
+						"source_url": "http://yobic.co/wp-content/uploads/2018/12/ブランドタイトル-300x200.jpg"
+					},
+					"full": {
+						"file": "ブランドタイトル.jpg",
+						"width": 1920,
+						"height": 1080,
+						"mime_type": "image/jpeg",
+						"source_url": "http://yobic.co/wp-content/uploads/2018/12/ブランドタイトル.jpg"
+					}
+				},
+				"image_meta": {
+					"aperture": "0",
+					"credit": "",
+					"camera": "",
+					"caption": "",
+					"created_timestamp": "0",
+					"copyright": "",
+					"focal_length": "0",
+					"iso": "0",
+					"shutter_speed": "0",
+					"title": "",
+					"orientation": "0",
+					"keywords": []
+				}
+			},
+			"source_url": "http://yobic.co/wp-content/uploads/2018/12/ブランドタイトル.jpg",
+			"_links": {
+				"self": [
+					{
+						"attributes": [],
+						"href": "http://yobic.co/wp-json/wp/v2/media/304"
+					}
+				],
+				"collection": [
+					{
+						"attributes": [],
+						"href": "http://yobic.co/wp-json/wp/v2/media"
+					}
+				],
+				"about": [
+					{
+						"attributes": [],
+						"href": "http://yobic.co/wp-json/wp/v2/types/attachment"
+					}
+				],
+				"author": [
+					{
+						"attributes": {
+							"embeddable": true
+						},
+						"href": "http://yobic.co/wp-json/wp/v2/users/1"
+					}
+				],
+				"replies": [
+					{
+						"attributes": {
+							"embeddable": true
+						},
+						"href": "http://yobic.co/wp-json/wp/v2/comments?post=304"
+					}
+				]
+			}
+		}
+	],
+	"wp:term": [
+		[
+			{
+				"id": 8,
+				"link": "http://yobic.co/category/%e3%83%88%e3%83%94%e3%83%83%e3%82%af/",
+				"name": "トピック",
+				"slug": "%e3%83%88%e3%83%94%e3%83%83%e3%82%af",
+				"taxonomy": "category",
+				"_links": {
+					"self": [
+						{
+							"href": "http://yobic.co/wp-json/wp/v2/categories/8"
+						}
+					],
+					"collection": [
+						{
+							"href": "http://yobic.co/wp-json/wp/v2/categories"
+						}
+					],
+					"about": [
+						{
+							"href": "http://yobic.co/wp-json/wp/v2/taxonomies/category"
+						}
+					],
+					"wp:post_type": [
+						{
+							"href": "http://yobic.co/wp-json/wp/v2/posts?categories=8"
+						}
+					],
+					"curies": [
+						{
+							"name": "wp",
+							"href": "https://api.w.org/{rel}",
+							"templated": true
+						}
+					]
+				}
+			}
+		],
+		[
+			{
+				"id": 3,
+				"link": "http://yobic.co/tag/%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af/",
+				"name": "ネットワーク",
+				"slug": "%e3%83%8d%e3%83%83%e3%83%88%e3%83%af%e3%83%bc%e3%82%af",
+				"taxonomy": "post_tag",
+				"_links": {
+					"self": [
+						{
+							"href": "http://yobic.co/wp-json/wp/v2/tags/3"
+						}
+					],
+					"collection": [
+						{
+							"href": "http://yobic.co/wp-json/wp/v2/tags"
+						}
+					],
+					"about": [
+						{
+							"href": "http://yobic.co/wp-json/wp/v2/taxonomies/post_tag"
+						}
+					],
+					"wp:post_type": [
+						{
+							"href": "http://yobic.co/wp-json/wp/v2/posts?tags=3"
+						},
+						{
+							"href": "http://yobic.co/wp-json/wp/v2/pages?tags=3"
+						}
+					],
+					"curies": [
+						{
+							"name": "wp",
+							"href": "https://api.w.org/{rel}",
+							"templated": true
+						}
+					]
+				}
+			}
+		]
+	]
+}

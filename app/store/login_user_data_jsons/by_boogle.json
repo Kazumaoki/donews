@@ -1,0 +1,31 @@
+{
+	"uid": "Pcv4xns7o0fIXVB7LpSGsmXQGA03",
+	"displayName": "ARAI hiroki",
+	"photoURL": "https://lh4.googleusercontent.com/-cE2TRZZMn2I/AAAAAAAAAAI/AAAAAAAASCk/VYQXJhVgFcA/photo.jpg",
+	"email": "ary.hrk@gmail.com",
+	"emailVerified": true,
+	"phoneNumber": null,
+	"isAnonymous": false,
+	"providerData": [
+		{
+			"uid": "113953980191464566939",
+			"displayName": "ARAI hiroki",
+			"photoURL": "https://lh4.googleusercontent.com/-cE2TRZZMn2I/AAAAAAAAAAI/AAAAAAAASCk/VYQXJhVgFcA/photo.jpg",
+			"email": "ary.hrk@gmail.com",
+			"phoneNumber": null,
+			"providerId": "google.com"
+		}
+	],
+	"apiKey": "AIzaSyB6Uuy1eQbc6lxVJsVpa38-01qkcSKS-nc",
+	"appName": "[DEFAULT]-firebaseui-temp",
+	"authDomain": "mojikaku-donews.firebaseapp.com",
+	"stsTokenManager": {
+		"apiKey": "AIzaSyB6Uuy1eQbc6lxVJsVpa38-01qkcSKS-nc",
+		"refreshToken": "AGK09AMV4dOHvcmMfYerTUleuebbJORS8J-4dw5c2XCHohoiqXQYhCwb67l__jAJLqm3GtMlED2i2QXMurud2y2G-zvLbyZ1p4wBS8Qr7Zv2dkRrq1t21YpfNv4plWEdJtvw4c31Xk3-SLkHgAK9LrUZntmjBuJiylwFuBK4Ds8Z0a7VJaT2C9bBY_ihFa5uBcDC7-rFDry76WK_4FAUeUxG5j6KKwjrPh746_MID-ZYT8_a2Jmiht8yU6g05uD5DhxGC8-2MA9RE6NqbwNCaho2-uS4dTX8NWcPwetbZjmYkqRYOBIoor4Iv5-ql_01asl9iVvZELAMG_p3eIVpLVfKH1T6D9TInufoiJYpGQEjRoOpvmhNrwo",
+		"accessToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjkxZmM2MDg1OGUxYzQxMzNjODIyMTZkNTNkZDE3OWZhNDFmODQzMGMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vbW9qaWtha3UtZG9uZXdzIiwibmFtZSI6IkFSQUkgaGlyb2tpIiwicGljdHVyZSI6Imh0dHBzOi8vbGg0Lmdvb2dsZXVzZXJjb250ZW50LmNvbS8tY0UyVFJaWk1uMkkvQUFBQUFBQUFBQUkvQUFBQUFBQUFTQ2svVllRWEpoVmdGY0EvcGhvdG8uanBnIiwiYXVkIjoibW9qaWtha3UtZG9uZXdzIiwiYXV0aF90aW1lIjoxNTQ4MTY1NzY5LCJ1c2VyX2lkIjoiUGN2NHhuczdvMGZJWFZCN0xwU0dzbVhRR0EwMyIsInN1YiI6IlBjdjR4bnM3bzBmSVhWQjdMcFNHc21YUUdBMDMiLCJpYXQiOjE1NDgyMTM0MzUsImV4cCI6MTU0ODIxNzAzNSwiZW1haWwiOiJhcnkuaHJrQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7Imdvb2dsZS5jb20iOlsiMTEzOTUzOTgwMTkxNDY0NTY2OTM5Il0sImVtYWlsIjpbImFyeS5ocmtAZ21haWwuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiZ29vZ2xlLmNvbSJ9fQ.IAh20K_oSd4du7rkKGnaKi-YE_zX_8KuKGwWflcN-cRlIanK8eKHe8k9OcBt_9zgxqsnnfY0DPcJEP2-If9S11jG2Bqh7L78_JZ85ZP7P4uK-udxxTYZN5JLSK-gGJ1D1_POoYqJEA7KWrTb-99FpKLp0zMVnKQbgw7n4XtPWxkiqWkjFZiSpVYy3jS4vPBCTHyi1YgWBbGWLl-NFx3iNV8B552VsSKz4t14LHpSkjRqapAPaTpIz6lwJHeSZs63OQWQhtNR5yXq7BOZ0Y9RWnYe_yxmLMcmipMQBm2gLKcPjPVBf67_4es5I5VsECr5_nWsYNp55V05-LUot__0oQ",
+		"expirationTime": 1548217026770
+	},
+	"redirectEventId": null,
+	"lastLoginAt": "1548165704000",
+	"createdAt": "1548163557000"
+}

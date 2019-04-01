@@ -1,0 +1,78 @@
+/* myreset */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 15px; /* rem基準値 */
+
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  background: #fff;
+  color: #333;
+
+  line-height: 1;
+  vertical-align: baseline;
+}
+body {
+  * {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+  // div,
+  // span,
+  // p,
+  // a,
+  // b,
+  // i,
+  // h1,
+  // h2,
+  // h3,
+  // h4,
+  // h5,
+  // h6 {
+  //   overflow: visible;
+  // }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+section,
+article,
+aside {
+  display: block;
+}
+
+strong,
+b {
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+}
+
+ul,
+ol {
+  list-style: none;
+}

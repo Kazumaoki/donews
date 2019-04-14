@@ -6,7 +6,7 @@ const description = `DoNEWS（ドーニュース）は、ツールやサービ�
 const ogImageDefault = domain + '/og-image.jpg'
 
 const nuxtConfig = {
-  // mode: 'spa',
+  mode: 'spa',
   srcDir: 'app',
   /*
    ** Headers of the page

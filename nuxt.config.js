@@ -2,13 +2,11 @@ import fetchAllContent from './fetchAPI/fetchAllContent.js'
 
 const domain = 'https://do-news.jp'
 const siteTitle = 'DoNEWS ドウニュウ事例で探すメディア'
-const description = `
-  DoNEWS（ドウニュウス）は、クラウドサービスの導入事例から探すメディアです。
-  お客様に最適なSaaSの導入をお手伝いいたします。
-  私たちは資料請求までをサポートいたします。`
+const description = `DoNEWS（ドーニュース）は、ツールやサービス導入後のストーリーを掲載しています。生の導入ストーリーを通じて、ツールやサービスを比較検討し、資料請求することができます。`
+const ogImageDefault = domain + '/og-image.jpg'
 
 const nuxtConfig = {
-  mode: 'spa',
+  // mode: 'spa',
   srcDir: 'app',
   /*
    ** Headers of the page
@@ -50,10 +48,25 @@ const nuxtConfig = {
       {
         hid: 'og:image',
         property: 'og:image',
-        // content: domain + '/og-image.jpg',
-        content: '/og-image.jpg',
+        content: ogImageDefault,
       },
-      { name: 'twitter:card', content: 'summary_large_image' },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      { hid: 'twitter:site', property: 'twitter:site', content: domain },
+      { hid: 'twitter:title', property: 'twitter:title', content: siteTitle },
+      {
+        hid: 'twitter:image',
+        property: 'twitter:image',
+        content: ogImageDefault,
+      },
+      {
+        hid: 'twitter:description',
+        property: 'twitter:description',
+        content: description,
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/vnd.microsoft.icon', href: '/favicon.ico' },
@@ -117,6 +130,9 @@ export default async () => {
     env: {
       content,
       siteTitle,
+      domain,
+      description,
+      ogImageDefault,
     },
     generate: {
       routes,

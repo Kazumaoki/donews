@@ -25,7 +25,6 @@ export default {
       meta: {
         title: post.title,
         description: post.excerpt,
-        type: 'site',
         url: post.url,
         image: post.eyeCatch,
       },

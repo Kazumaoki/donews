@@ -1,6 +1,6 @@
 {
-  "name": "mojikaku-donews",
-  "version": "1.0.0",
+  "name": "mojikaku-donews-dist",
+  "version": "1.1.0",
   "description": "Nuxt.js project",
   "author": "kikimetal <reezafratzitz2@gmail.com>",
   "private": true,

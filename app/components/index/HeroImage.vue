@@ -1,20 +1,27 @@
 <template lang="html">
   <div class="heroImage">
+    <!--
+      <h1 class="powerWord"><span>SELECT</span><span>YOUR</span><span>VALUE</span></h1>
+    -->
 
-    <h1 class="powerWord"><span>SELECT</span><span>YOUR</span><span>VALUE</span></h1>
-
-    <div class="line"/>
+    <div class="line" />
 
     <img
-      class="arrow right" src="~/assets/img/heroimage-arrow.svg" alt="前後のトピックへ移動"
-      @click="exchangeCenterContents('next')">
+      class="arrow right"
+      src="~/assets/img/heroimage-arrow.svg"
+      alt="前後のトピックへ移動"
+      @click="exchangeCenterContents('next')"
+    />
     <img
-      class="arrow left" src="~/assets/img/heroimage-arrow.svg" alt="前後のトピックへ移動"
-      @click="exchangeCenterContents('prev')">
+      class="arrow left"
+      src="~/assets/img/heroimage-arrow.svg"
+      alt="前後のトピックへ移動"
+      @click="exchangeCenterContents('prev')"
+    />
 
-    <router-link
-      :to="pickupPost[heroImageStatus].url"
-      class="moreButton">VIEW MORE</router-link>
+    <router-link :to="pickupPost[heroImageStatus].url" class="moreButton"
+      >もっと読む</router-link
+    >
 
     <router-link
       v-for="(p, i) in pickupPost"
@@ -23,10 +30,11 @@
       class="centerImage"
       :class="{
         center: heroImageStatus === i,
-        right: heroImageStatus === (i+1 === pickupPost.length ? 0 : i+1),
-        left: heroImageStatus === (i === 0 ? pickupPost.length-1 : i-1)
+        right: heroImageStatus === (i + 1 === pickupPost.length ? 0 : i + 1),
+        left: heroImageStatus === (i === 0 ? pickupPost.length - 1 : i - 1),
       }"
-      :style="{backgroundImage: `url(${p.eyeCatch})`}"/>
+      :style="{ backgroundImage: `url(${p.eyeCatch})` }"
+    />
 
     <div
       v-for="(p, i) in pickupPost"
@@ -34,13 +42,13 @@
       class="caption"
       :class="{
         center: heroImageStatus === i,
-        right: heroImageStatus === (i+1 === pickupPost.length ? 0 : i+1),
-        left: heroImageStatus === (i === 0 ? pickupPost.length-1 : i-1)
-      }">
-        <div class="en">{{p.title}}</div>
-        <div class="ja" v-html="p.excerpt"/>
+        right: heroImageStatus === (i + 1 === pickupPost.length ? 0 : i + 1),
+        left: heroImageStatus === (i === 0 ? pickupPost.length - 1 : i - 1),
+      }"
+    >
+      <div class="en">{{ p.title }}</div>
+      <div class="ja" v-html="p.excerpt" />
     </div>
-
   </div>
 </template>
 

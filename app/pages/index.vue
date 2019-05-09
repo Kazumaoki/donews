@@ -1,10 +1,18 @@
 <template>
   <div class="page">
-    <HeroImage/>
-    <PostCardList heading="New arrivals" :limit="9" :posts="$store.state.content.posts.all" />
-    <PostCardList heading="おすすめサービス" :limit="6" :posts="$store.state.content.posts.recommendedCategories" />
+    <HeroImage />
+    <PostCardList
+      heading="新着記事"
+      :limit="9"
+      :posts="$store.state.content.posts.all"
+    />
+    <PostCardList
+      heading="おすすめサービス"
+      :limit="6"
+      :posts="$store.state.content.posts.recommendedCategories"
+    />
 
-    <Footer/>
+    <Footer />
   </div>
 </template>
 

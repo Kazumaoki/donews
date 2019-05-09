@@ -1,51 +1,62 @@
 <template lang="html">
   <div class="page">
-
     <div
       v-if="requestDocuments === 'true' && !$store.state.loginUser.status"
-      class="login-notice">
+      class="login-notice"
+    >
       資料請求にはログインが必要です。以下よりサインアップまたはログインをお願いいたします。
     </div>
 
     <div class="section">
       <transition name="page">
-        <div class="pending" v-if="!checkedFirebaseAuth">
-          <p>laoding</p>
-        </div>
+        <div class="pending" v-if="!checkedFirebaseAuth"><p>laoding</p></div>
 
         <FirebaseAuthUI
-        v-else-if="!$store.state.loginUser.status"
-        :requestDocuments="requestDocuments"
-        :postId="postId"
+          v-else-if="!$store.state.loginUser.status"
+          :requestDocuments="requestDocuments"
+          :postId="postId"
         />
 
         <div v-else>
-          <h1 class="section-heading">MY PAGE</h1>
+          <h1 class="section-heading">マイページ</h1>
           <p class="notice">以下の情報でログインしています。</p>
           <div class="user-data">
             <p class="user-data-title">E-mail</p>
-            <p>{{$store.state.userDataForDocumentRequest.data.body.email}}</p>
+            <p>{{ $store.state.userDataForDocumentRequest.data.body.email }}</p>
 
             <!-- loginType === 'email' の場合以下も表示 -->
-            <div v-if="$store.state.userDataForDocumentRequest.data.loginType === 'email'">
+            <div
+              v-if="
+                $store.state.userDataForDocumentRequest.data.loginType ===
+                  'email'
+              "
+            >
               <p class="user-data-title">お名前</p>
-              <p>{{$store.state.userDataForDocumentRequest.data.body.name}}</p>
+              <p>
+                {{ $store.state.userDataForDocumentRequest.data.body.name }}
+              </p>
               <p class="user-data-title">送りかな</p>
-              <p>{{$store.state.userDataForDocumentRequest.data.body.kana}}</p>
+              <p>
+                {{ $store.state.userDataForDocumentRequest.data.body.kana }}
+              </p>
               <p class="user-data-title">電話番号</p>
-              <p>{{$store.state.userDataForDocumentRequest.data.body.phoneNumber}}</p>
+              <p>
+                {{
+                  $store.state.userDataForDocumentRequest.data.body.phoneNumber
+                }}
+              </p>
               <p class="user-data-title">所属</p>
-              <p>{{$store.state.userDataForDocumentRequest.data.body.belongs}}</p>
+              <p>
+                {{ $store.state.userDataForDocumentRequest.data.body.belongs }}
+              </p>
             </div>
-
           </div>
           <div class="logOutButton" v-on:click="logOut">ログアウト</div>
         </div>
       </transition>
-
     </div>
 
-    <Footer/>
+    <Footer />
   </div>
 </template>
 

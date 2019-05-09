@@ -101,10 +101,11 @@ img {
     top: 0;
     left: 0em;
     right: auto;
-    bottom: 0.04em;
+    bottom: 0.03em;
     width: 0.6em;
-    background: linear-gradient(70deg, $accent01, $accent02);
-    opacity: 0.3;
+    // background: linear-gradient(70deg, $accent01, $accent02);
+    background: $accent02;
+    // opacity: 0.3;
     z-index: -1;
   }
 }

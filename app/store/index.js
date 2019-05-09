@@ -43,13 +43,13 @@ const posts = {
 
 const navs = {
   main: [
-    { path: '/posts', name: 'List of Story' },
-    { path: '/search', name: 'Search Story' },
-    { path: '/my-page', name: 'My page' },
+    { path: '/posts', name: '記事一覧' },
+    { path: '/search', name: '事例を探す' },
+    { path: '/my-page', name: 'マイページ' },
   ],
   sub: [
-    { path: '/privacy-policy', name: 'Privacy policy' },
-    { path: '/terms-of-use', name: 'Terms of use' },
+    { path: '/privacy-policy', name: 'プライバシーポリシー' },
+    { path: '/terms-of-use', name: '利用規約' },
   ],
 }
 

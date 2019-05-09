@@ -1,11 +1,22 @@
 <template>
   <div class="page">
+    <PostCardList
+      heading="新着記事"
+      :posts="$store.state.content.posts.all"
+      :limit="15"
+    />
+    <PostCardList
+      heading="おすすめサービス"
+      :posts="$store.state.content.posts.recommendedCategories"
+      :limit="6"
+    />
+    <PostCardList
+      heading="おすすめジャンル"
+      :posts="$store.state.content.posts.recommendedTags"
+      :limit="6"
+    />
 
-    <PostCardList heading="New arrivals" :posts="$store.state.content.posts.all" :limit="15" />
-    <PostCardList heading="おすすめサービス" :posts="$store.state.content.posts.recommendedCategories" :limit="6" />
-    <PostCardList heading="おすすめジャンル" :posts="$store.state.content.posts.recommendedTags" :limit="6" />
-
-    <Footer/>
+    <footer />
   </div>
 </template>
 

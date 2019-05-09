@@ -7,6 +7,7 @@
         :key="i"
         :to="{ path: r.path }"
         class="link">{{ r.name }}</router-link>
+        <a class="link" href="https://mojikaku.co.jp">運営会社</a>
     </div>
     <small>&copy; mojikaku inc.</small>
   </footer>
@@ -27,7 +28,7 @@ export default {}
   width: 100%;
   height: 10vw;
   @include sm {
-    height: 260px;
+    height: 300px;
   }
   min-height: 160px;
   background: $grey1;
@@ -39,8 +40,8 @@ export default {}
     padding-top: 2.4em;
     @include md {
       margin: 0 auto;
-      width: 90vw;
-      max-width: 730px;
+      width: 96vw;
+      max-width: 760px;
     }
     font-weight: 600;
     display: flex;

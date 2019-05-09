@@ -9,7 +9,7 @@
         class="link">{{ r.name }}</router-link>
         <a class="link" href="https://mojikaku.co.jp">運営会社</a>
     </div>
-    <small>&copy; mojikaku inc.</small>
+    <small>&copy; MOJIKAKU, Inc.</small>
   </footer>
 </template>
 

@@ -56,7 +56,7 @@
       </transition>
     </div>
 
-    <footer />
+    <Footer />
   </div>
 </template>
 

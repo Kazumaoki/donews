@@ -16,7 +16,7 @@
       :limit="6"
     />
 
-    <footer />
+    <Footer />
   </div>
 </template>
 

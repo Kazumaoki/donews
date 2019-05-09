@@ -12,7 +12,7 @@
       :posts="$store.state.content.posts.recommendedCategories"
     />
 
-    <footer />
+    <Footer />
   </div>
 </template>
 
